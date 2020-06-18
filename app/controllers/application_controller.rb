@@ -17,6 +17,6 @@ class ApplicationController < Sinatra::Base
   
   post '/articles' do 
     binding.pry
-    @article = Article.create(params[:])
+    # @article = Article.create(params[:])
   end
 end
